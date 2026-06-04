@@ -1,1 +1,1 @@
-This is a feature update.
+This is a major (breaking change) update.
