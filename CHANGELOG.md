@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/Berilkose/Week12/compare/v3.0.1...v3.1.0) (2026-06-04)
+
+
+### Features
+
+* Readme file changed  feature. ([d6996a2](https://github.com/Berilkose/Week12/commit/d6996a20435d6f28a30ca5b2dc36039e39b910ff))
+
 ## [3.0.1](https://github.com/Berilkose/Week12/compare/v3.0.0...v3.0.1) (2026-06-04)
 
 
