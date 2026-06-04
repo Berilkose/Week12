@@ -1,3 +1,13 @@
+# [2.0.0](https://github.com/Berilkose/Week12/compare/v1.1.0...v2.0.0) (2026-06-04)
+
+
+* Merge pull request [#6](https://github.com/Berilkose/Week12/issues/6) from Berilkose/break/new-readme-change ([a57948d](https://github.com/Berilkose/Week12/commit/a57948d7603cb4387f8acd05f57d7d374ec486e3))
+
+
+### BREAKING CHANGES
+
+* This is a major update 2.
+
 # [1.1.0](https://github.com/Berilkose/Week12/compare/v1.0.1...v1.1.0) (2026-06-04)
 
 
