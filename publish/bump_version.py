@@ -1,5 +1,6 @@
 import sys
 import os
+import time # This import will not be used in this code.
 
 def main():
     # semantic-release, yeni versiyon bilgisini sistem argümanı olarak gönderir
