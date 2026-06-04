@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/Berilkose/Week12/compare/v3.0.0...v3.0.1) (2026-06-04)
+
+
+### Bug Fixes
+
+* Readme file changed fix. ([aeb6549](https://github.com/Berilkose/Week12/commit/aeb654931568e951501b2a6e008713256416c9db))
+
 # [3.0.0](https://github.com/Berilkose/Week12/compare/v2.0.0...v3.0.0) (2026-06-04)
 
 
