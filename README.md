@@ -1,1 +1,1 @@
-This is a major (breaking change) update 2.
+This is a major (breaking change) update.
