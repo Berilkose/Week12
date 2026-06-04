@@ -6,32 +6,41 @@ on:
   pull_request:
     branches: [ "main" ]
 
+# GitHub Actions 
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
 jobs:
   release:
     runs-on: ubuntu-latest
     steps:
+      # persist-credentials: 
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          [cite_start]node-version: '20' [cite: 26]
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          [cite_start]python-version: '3.12' 
 
       - name: Install dependencies
         run: |
           npm install --save-dev semantic-release \
             @semantic-release/changelog \
             @semantic-release/exec \
-            @semantic-release/git
+            @semantic-release/git [cite: 27, 28]
 
       - name: Run semantic-release
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          [cite_start]GH_TOKEN: ${{ secrets.GH_TOKEN }} [cite: 23, 29]
+          [cite_start]GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} [cite: 23, 29]
         run: npx semantic-release
