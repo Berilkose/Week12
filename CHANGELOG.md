@@ -1,3 +1,13 @@
+# [4.0.0](https://github.com/Berilkose/Week12/compare/v3.1.0...v4.0.0) (2026-06-04)
+
+
+* Merge pull request [#10](https://github.com/Berilkose/Week12/issues/10) from Berilkose/break/readme-file-changed ([c72fccd](https://github.com/Berilkose/Week12/commit/c72fccda24df0a8ae294f0560f94b20850b470ba))
+
+
+### BREAKING CHANGES
+
+* Readme file changed major.
+
 # [3.1.0](https://github.com/Berilkose/Week12/compare/v3.0.1...v3.1.0) (2026-06-04)
 
 
